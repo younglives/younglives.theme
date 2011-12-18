@@ -1,0 +1,4 @@
+<layers>
+    <layer name="Young Lives Theme"
+           interface="younglives.theme.browser.interfaces.IThemeSpecific" />
+</layers>
