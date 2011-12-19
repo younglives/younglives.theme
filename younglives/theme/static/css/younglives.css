@@ -22,13 +22,6 @@ a:hover
     border-right: none;
 }
 
-#header #portal-globalnav ul li
-{
-    background: url(../assets/bg-nav.png) no-repeat 0px 5px;
-    padding-left: 12px;
-    margin-left: 22px;
-}
-
 #portal-globalnav li.selected a,
 #portal-globalnav li.selected a:hover,
 #portal-globalnav li a:hover
