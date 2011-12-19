@@ -13,13 +13,16 @@ a:hover
 {
     float: right; 
     background: none repeat scroll 0 0 #4E2F91;
+    margin: 0;
 }
 
 #portal-globalnav li a
 {
     color: #b897e3;
+    font-size: 120%;
     background: none repeat scroll 0 0 #4E2F91;
     border-right: none;
+    padding: 0;
 }
 
 #portal-globalnav li.selected a,
