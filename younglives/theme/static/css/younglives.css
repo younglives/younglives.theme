@@ -12,11 +12,14 @@ a:hover
 #portal-globalnav
 {
     float: right; 
+    background: none repeat scroll 0 0 #4E2F91;
 }
 
-#portal-globalnav a
+#portal-globalnav li a
 {
     color: #b897e3;
+    background: none repeat scroll 0 0 #4E2F91;
+    border-right: none;
 }
 
 #header #portal-globalnav ul li
@@ -27,7 +30,9 @@ a:hover
 }
 
 #portal-globalnav li.selected a,
+#portal-globalnav li.selected a:hover,
 #portal-globalnav li a:hover
 {
-    color: #fff;
+    color: #ffffff;
+    background: none repeat scroll 0 0 #4E2F91;
 }
