@@ -3,3 +3,39 @@
     border-bottom: 2px solid #35157C;
     overflow: hidden;
 }
+
+#header .search-form,
+#header #portal-globalnav
+{
+    float: right; 
+    clear: right;
+}
+
+#header a
+{
+    color: #b897e3;
+}
+
+#header #portal-globalnav ul
+{
+    _width: 650px;
+}
+
+#header #portal-globalnav ul li
+{
+    background: url(../assets/bg-nav.png) no-repeat 0px 5px;
+    padding-left: 12px;
+    margin-left: 22px;
+}
+
+#header #portal-globalnav li.selected,
+#header #portal-globalnav ul li:hover 
+{
+    background-position: 0 -20px;
+}
+
+#header #portal-globalnav li.selected a,
+#header #portal-globalnav li a:hover
+{
+    color: #fff;
+}
