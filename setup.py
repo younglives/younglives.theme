@@ -1,15 +1,14 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.0'
+version = open(os.path.join("younglives", "theme", "version.txt")).read().strip()
 
 setup(name='younglives.theme',
       version=version,
       description="Diazo theme for Young Lives",
-      long_description=open("README.rst").read() + "\n" +
+      long_description=open(os.path.join("docs", "README.txt")).read() + "\n" +
+                       open(os.path.join("docs", "INSTALL.txt")).read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
-      # Get more strings from
-      # http://pypi.python.org/pypi?:action=list_classifiers
       classifiers=[
         "Programming Language :: Python",
         "Framework :: Plone",
@@ -18,8 +17,8 @@ setup(name='younglives.theme',
         "Framework :: Plone :: 4.2",
         ],
       keywords='',
-      author='',
-      author_email='',
+      author='Michael Davis',
+      author_email='M.R.Davis@cranfield.ac.uk',
       url='http://svn.plone.org/svn/collective/',
       license='gpl',
       packages=find_packages(exclude=['ez_setup']),
@@ -31,10 +30,15 @@ setup(name='younglives.theme',
           'plone.app.theming',
           # -*- Extra requirements: -*-
       ],
+      extras_require = {
+            'test': [
+                    'plone.app.testing',
+                ]
+      },
       entry_points="""
       # -*- Entry points: -*-
 
       [z3c.autoinclude.plugin]
       target = plone
       """,
-      )
+)
