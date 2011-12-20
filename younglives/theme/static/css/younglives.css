@@ -40,4 +40,16 @@ a:hover
     line-height: 1.4;
     padding: 4px 0;
     overflow: hidden;
+    margin: 0;
+}
+
+#portal-breadcrumbs
+{
+    margin: 0;
+    font-size: 100%;
+}
+
+#portal-breadcrumbs a
+{
+    font-size: 0.93em;
 }
