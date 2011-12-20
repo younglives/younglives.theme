@@ -26,6 +26,10 @@
     <append css:content='#portal-searchbox' css:theme='#tools' />
     <append css:content="#portal-globalnav" css:theme="#tools"/>
 
+<!-- BREADCRUMBS -->
+    <drop css:content="#portal-breadcrumbs"/>
+    <replace css:theme="#portal-breadcrumbs"><xsl:copy-of css:select="#portal-breadcrumbs"/></replace>
+
 <!-- CONTENT -->
     <append css:content-children="#portal-column-content" css:theme="#portal-column-content"/>
     <append css:content-children="#portal-column-one" css:theme="#portal-column-one" />
