@@ -20,6 +20,11 @@ a:hover
     margin: 0;
 }
 
+#portal-globalnav li
+{
+    margin-left: 22px;
+}
+
 #portal-globalnav li a
 {
     color: #b897e3;
