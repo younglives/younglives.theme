@@ -22,7 +22,6 @@
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
 
-
   <plone:static directory="static" type="theme" />
 
 </configure>
