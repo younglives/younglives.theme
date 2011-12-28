@@ -68,3 +68,9 @@ a:hover
     float: right;
 }
 
+.carousel-pager
+{
+    float: right;
+    position: relative;
+    top: -245px;
+}
