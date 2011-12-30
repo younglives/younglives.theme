@@ -28,5 +28,12 @@
       permission="zope2.View"
       />
   -->
+    <browser:viewlet
+        name="younglives.footer"
+        manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
+        class=".footer.FooterViewlet"
+        template="footer.pt"
+        layer="younglives.theme.browser.interfaces.IThemeSpecific"
+        permission="zope2.View" />
 
 </configure>
