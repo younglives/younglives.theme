@@ -41,8 +41,7 @@
     <append css:content-children="#portal-column-two" css:theme="#portal-column-two" />
 
 <!-- FOOTER -->
-    <append css:content-children="#portal-footer" css:theme="#portal-footer" />
-    <append css:content-children="#portal-colophon" css:theme="#portal-colophon" />
+    <append css:content-children="#younglives-footer" css:theme="#portal-footer" />
     <append css:content-children="#portal-siteactions" css:theme="#portal-siteactions" />
 
 </rules>

@@ -67,3 +67,15 @@ a:hover
 {
     float: right;
 }
+
+#footer-wrapper
+{
+    background: none repeat scroll 0 0 #F4F1E3;
+    border-top: 2px solid #F1EDDF;
+    overflow: hidden;
+}
+
+#portal-footer
+{
+    background-color: #F4F1E3;
+}
