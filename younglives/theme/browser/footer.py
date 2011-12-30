@@ -16,8 +16,11 @@ from younglives.content.interfaces import ISiteTabMarker, IHomePage, IHomepageBo
 class FooterViewlet(ViewletBase):
     """ Footer viewlet """
     
-    def isHomepage(self):
-        return IHomePage.providedBy(self.context)
+    def isNotHomepage(self):
+        from Products.CMFPlone.interfaces import IPloneSiteRoot
+        if IPloneSiteRoot.providedBy(self.context):
+            return True
+        return False
     
     @memoize        
     def getHomePage(self):
