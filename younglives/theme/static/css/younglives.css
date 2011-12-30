@@ -85,3 +85,39 @@ a:hover
 {
     background-color: #F4F1E3;
 }
+
+.footer-img {
+    float: left;
+    margin-right: 26px;
+    padding-top: 25px;
+}
+
+#footer-wrapper .block {
+    float: left;
+    padding: 20px 20px 20px 0;
+    width: 225px;
+}
+
+#footer-wrapper .block h6 {
+    color: #837562;
+    font-family: "Gill Sans","Trebuchet MS",Calibri,sans-serif;
+    font-size: 230%;
+    font-weight: normal;
+    margin-bottom: 8px;
+}
+
+#footer-wrapper .news li {
+    display: list-item;
+}
+
+
+#footer-wrapper .logo {
+    float: right;
+    margin-top: 25px;
+}
+
+#footer-wrapper .links {
+    clear: both;
+    font-size: 0.86em;
+    padding-top: 15px;
+}
