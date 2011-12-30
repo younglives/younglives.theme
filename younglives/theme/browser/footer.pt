@@ -22,28 +22,28 @@
             <li>
                 <a title="News &amp; Events"
                     tal:attributes="href string:${context/portal_url}/what-we-do/news-and-events">
-                    <span class="icon-news">&gt;</span>
+                    <img src="++theme++younglives.theme/images/quotes.png" />
                     News &amp; Events
                 </a>
             </li>
             <li>
                 <a title="E-newsletter / e-alerts"
                     tal:attributes="href string:${context/portal_url}/who-we-are/find-out-more">
-                    <span class="icon-email">&gt;</span>
+                    <img src="++theme++younglives.theme/images/alerts.png" />
                     E-newsletter / e-alerts
                 </a>
             </li>
             <li>
                 <a title="iTunes U podcasts"
                     tal:attributes="href string:${context/portal_url}/who-we-are/find-out-more">
-                    <span class="icon-podcast">&gt;</span>
+                    <img src="++theme++younglives.theme/images/podcasts.png" />
                     iTunes U podcasts
                 </a>
             </li>
             <li>
                 <a title="Contact us" accesskey="6"
                     tal:attributes="href string:${context/portal_url}/who-we-are/contact-details">
-                    <span class="icon-contact">&gt;</span>
+                    <img src="++theme++younglives.theme/images/contact.png" />
                     Contact us
                 </a>
             </li>
