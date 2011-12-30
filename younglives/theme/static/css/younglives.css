@@ -2,6 +2,12 @@ body {
     background-color: #F7F5EA;
 }
 
+.portaltype-homepage #content-wrapper
+{
+    background-color: white;
+    border-bottom: 2px solid #F1EDDF;
+}
+
 a:hover
 {
     text-decoration: underline;
