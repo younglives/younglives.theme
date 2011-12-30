@@ -10,19 +10,20 @@ from plone.memoize.view import memoize
 from Products.CMFPlone.interfaces.siteroot import IPloneSiteRoot
 from Products.CMFCore.utils import getToolByName
 
+from younglives.homepage.interfaces import IHomePage
+
 # local
-from younglives.content.interfaces import ISiteTabMarker, IHomePage, IHomepageBoxAware
+from younglives.content.interfaces import ISiteTabMarker, IHomepageBoxAware
 
 class FooterViewlet(ViewletBase):
     """ Footer viewlet """
-    
-    def isNotHomepage(self):
-        from Products.CMFPlone.interfaces import IPloneSiteRoot
-        if IPloneSiteRoot.providedBy(self.context):
+
+    def isHomepage(self):
+        if IHomePage.providedBy(self.context):
             return True
         return False
-    
-    @memoize        
+
+    @memoize
     def getHomePage(self):
         """ For other sites - get homepage and use it's settings """
         catalog = getToolByName(self.context, 'portal_catalog')
