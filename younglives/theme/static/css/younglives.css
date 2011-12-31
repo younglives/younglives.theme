@@ -84,6 +84,8 @@ a:hover
 #portal-footer
 {
     background-color: #F4F1E3;
+    margin: 0;
+    padding: 0;
 }
 
 .footer-img {
