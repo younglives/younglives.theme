@@ -74,6 +74,34 @@ a:hover
     float: right;
 }
 
+#edit-bar
+{
+    background-color:#579EC9; 
+    border:0.25em solid #579EC9;
+}
+
+#content-views,
+#contentActionMenus
+{
+    background-color: #579EC9 !important;
+}
+
+#contentActionMenus dl.actionMenu a
+{
+    border-bottom:1px solid #579EC9;
+}
+
+#contentActionMenus dl.actionMenu a,
+#contentActionMenus dl.actionMenu.activated dd
+{
+    background-color:#579EC9;
+}
+
+#contentActionMenus dl.actionMenu.activated dd
+{
+    border-bottom:0.5em solid #579EC9;
+}
+
 #footer-wrapper
 {
     background: none repeat scroll 0 0 #F4F1E3;
