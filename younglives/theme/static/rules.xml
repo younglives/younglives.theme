@@ -36,11 +36,11 @@
     <append css:theme="#portal-breadcrumbs"><xsl:copy-of css:select="#portal-breadcrumbs"/></append>
 
 <!-- CONTENT -->
-    <append css:content-children="#portal-column-content" css:theme="#portal-column-content"/>
+    <append css:content-children="#portal-column-content" css:theme="#portal-column-content" />
     <append css:content-children="#portal-column-one" css:theme="#portal-column-one" />
     <append css:content-children="#portal-column-two" css:theme="#portal-column-two" />
-    <append css:content-children="#younglives-homepage-middle" css:theme="#younglives-homepage-boxes" 
-        if="$is_home_page"/>
+    <drop css:content="#younglives-homepage-middle"/>
+    <append css:theme="#younglives-homepage-boxes"><xsl:copy-of css:select="#younglives-homepage-middle"/></append>
 
 <!-- FOOTER -->
     <append css:content-children="#younglives-footer" css:theme="#portal-footer" />
