@@ -19,4 +19,11 @@
         layer="younglives.theme.browser.interfaces.IThemeSpecific"
         permission="zope2.View" />
 
+  <browser:viewlet
+      name="plone.abovecontenttitle.documentactions"
+      manager="plone.app.layout.viewlets.interfaces.IAboveContent"
+      class="plone.app.layout.viewlets.content.DocumentActionsViewlet"
+      permission="zope2.View"
+      />
+
 </configure>
