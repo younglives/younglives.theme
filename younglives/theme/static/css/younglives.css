@@ -165,3 +165,8 @@ a:hover
 {
     background: none;
 }
+
+#document-action-print
+{
+    background: url("++theme++younglives.theme/images/icon_print.png") no-repeat scroll left top transparent;
+}

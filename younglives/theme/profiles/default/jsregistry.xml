@@ -7,4 +7,10 @@
  <javascript
     id="++theme++younglives.theme/js/modernizr.js"/>
 
+ <javascript
+    id="http://w.sharethis.com/button/buttons.js"/>
+
+ <javascript
+    id="++theme++younglives.theme/js/share_this.js"/>
+
 </object>
