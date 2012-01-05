@@ -14,7 +14,7 @@
    </property>
    <property name="visible">True</property>
   </object>
-  <object name="print" meta_type="CMF Action" i18n:domain="plone">
+  <object name="sharethis" meta_type="CMF Action" i18n:domain="plone">
    <property name="title" i18n:translate="">ShareThis</property>
    <property name="description" i18n:translate=""></property>
    <property name="url_expr">string:#</property>
@@ -26,7 +26,7 @@
    </property>
    <property name="visible">True</property>
   </object>
-  <object name="print" meta_type="CMF Action" i18n:domain="plone">
+  <object name="email" meta_type="CMF Action" i18n:domain="plone">
    <property name="title" i18n:translate="">Email</property>
    <property name="description" i18n:translate=""></property>
    <property name="url_expr">string:#</property>

@@ -166,7 +166,12 @@ a:hover
     background: none;
 }
 
-#document-action-print
+#document-action-print .chicklets
 {
     background: url("++theme++younglives.theme/images/icon_print.png") no-repeat scroll left top transparent;
+}
+
+li.stButton a.chicklets
+{
+    font-size: 110% !important;
 }

@@ -1,0 +1,14 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser">
+
+    <include package="Products.CMFCore" file="permissions.zcml"/>
+
+    <browser:viewlet
+        name="younglives.theme.documentactions"
+        manager="plone.app.layout.viewlets.interfaces.IAboveContent"
+        class=".document_actions.DocumentActionsViewlet"
+        permission="zope2.View"
+        />
+
+</configure>
