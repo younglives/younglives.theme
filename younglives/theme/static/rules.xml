@@ -40,7 +40,7 @@
     <append css:content-children="#portal-column-one" css:theme="#portal-column-one" />
     <append css:content-children="#portal-column-two" css:theme="#portal-column-two" />
     <drop css:content="#younglives-homepage-middle"/>
-    <append css:theme="#homepage-box-wrapper"><xsl:copy-of css:select="#younglives-homepage-middle"/></append>
+    <append css:theme="#younglives-homepage-boxes"><xsl:copy-of css:select="#younglives-homepage-middle"/></append>
 
 <!-- FOOTER -->
     <append css:content-children="#younglives-footer" css:theme="#portal-footer" />
