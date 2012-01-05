@@ -175,3 +175,13 @@ li.stButton a.chicklets
 {
     font-size: 110% !important;
 }
+
+a, a:link,
+a:visited,
+a:hover,
+a:active
+{
+    color: #4E2F91;
+    outline: medium none;
+    text-decoration: none;
+}
