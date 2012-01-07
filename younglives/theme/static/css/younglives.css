@@ -185,3 +185,8 @@ a:active
     outline: medium none;
     text-decoration: none;
 }
+
+span.date {
+    color: #7E7D7D;
+    display: block;
+}
