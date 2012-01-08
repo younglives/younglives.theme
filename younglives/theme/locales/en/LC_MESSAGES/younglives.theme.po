@@ -14,3 +14,12 @@ msgstr ""
 "Language-Name: English\n"
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: younglives.theme\n"
+
+sgid "date_format_long"
+msgstr "${d} ${B} ${Y} ${I}:${M} ${p}"
+
+msgid "date_format_short"
+msgstr "${d}-${B}-${Y}"
+
+msgid "time_format"
+msgstr "${I}:${M} ${p}"
