@@ -186,12 +186,14 @@ a:active
     text-decoration: none;
 }
 
-span.date {
+span.date
+{
     color: #7E7D7D;
     display: block;
 }
 
-.hgroup {
+.hgroup
+{
     height: 123px;
     margin-bottom: 15px;
     position: relative;
@@ -208,11 +210,41 @@ span.date {
     background: none repeat scroll 0 0 #F7F5EA;
 }
 
-.hgroup img {
+.hgroup img
+{
     background: none repeat scroll 0 0 #F7F5EA;
     color: #837562;
     left: 0;
     position: absolute;
     top: 0;
     z-index: 1;
+}
+
+#quote-wrapper
+{
+    background: none repeat scroll 0 0 #FBFAF5;
+    border-top: 2px solid #F1EDDF;
+    clear: both;
+    color: #5F5F5F;
+    font-size: 1.29em;
+    font-weight: bold;
+    overflow: hidden;
+    padding: 10px 0;
+}
+
+#quote-wrapper .quote
+{
+    background: url("++resource++younglives.homepage.images/left-quote.png") no-repeat scroll 30px 0 transparent;
+    font-weight: bold;
+    margin-left: 150px;
+    padding-left: 50px;
+    padding-right: 60px;
+}
+
+#quote-wrapper blockquote
+{
+    background: url("++resource++younglives.homepage.images/right-quote.png") no-repeat scroll right bottom transparent;
+    display: inline;
+    font-style: italic;
+    padding-right: 20px;
 }

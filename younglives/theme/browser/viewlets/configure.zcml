@@ -8,7 +8,17 @@
         name="younglives.theme.documentactions"
         manager="plone.app.layout.viewlets.interfaces.IAboveContent"
         class=".document_actions.DocumentActionsViewlet"
+        layer="younglives.theme.browser.interfaces.IThemeSpecific"
         permission="zope2.View"
         />
+
+    <browser:viewlet
+        name="younglives.quote"
+        manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
+        for="*"
+        class=".quote.QuoteView"
+        template="quote.pt"
+        layer="younglives.theme.browser.interfaces.IThemeSpecific"
+        permission="zope2.View" />
 
 </configure>

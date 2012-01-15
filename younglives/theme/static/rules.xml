@@ -43,6 +43,7 @@
     <append css:theme="#younglives-homepage-boxes"><xsl:copy-of css:select="#younglives-homepage-middle"/></append>
 
 <!-- FOOTER -->
+    <append css:content-children="#quote" css:theme="#quote" />
     <append css:content-children="#younglives-footer" css:theme="#portal-footer" />
     <append css:content-children="#portal-siteactions" css:theme="#portal-siteactions" />
 
