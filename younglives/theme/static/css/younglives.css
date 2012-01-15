@@ -122,12 +122,6 @@ a:hover
     padding-top: 25px;
 }
 
-#footer-wrapper .block {
-    float: left;
-    padding: 20px 20px 20px 0;
-    width: 225px;
-}
-
 #footer-wrapper .block h6 {
     color: #837562;
     font-family: "Gill Sans","Trebuchet MS",Calibri,sans-serif;
@@ -261,4 +255,11 @@ span.date
 
 div.news-list ul {
     font-size: 0.86em;
+}
+
+#footer-wrapper .grid_12
+{
+    width: 990px;
+    margin-left: 0;
+    margin-right: 0;
 }
