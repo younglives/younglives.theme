@@ -190,3 +190,29 @@ span.date {
     color: #7E7D7D;
     display: block;
 }
+
+.hgroup {
+    height: 123px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.hgroup h2 {
+    float: left;
+    line-height: 1;
+    padding: 0 10px 10px 0;
+    position: relative;
+    z-index: 2;
+    color: #837562;
+    font-size: 2em;
+    background: none repeat scroll 0 0 #F7F5EA;
+}
+
+.hgroup img {
+    background: none repeat scroll 0 0 #F7F5EA;
+    color: #837562;
+    left: 0;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
