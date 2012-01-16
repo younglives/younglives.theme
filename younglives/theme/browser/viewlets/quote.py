@@ -15,3 +15,5 @@ class QuoteView(ViewletBase):
         if results:
             object = results[0].getObject()
             self.quote = object.getField('homeQuote').get(object)
+        else:
+            self.quote = ''
