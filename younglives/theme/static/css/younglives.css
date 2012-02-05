@@ -9,6 +9,12 @@ body {
     border-bottom: 2px solid #F1EDDF;
 }
 
+a, a:link, a:visited, a:hover, a:active {
+    color: #4E2F91;
+    outline: medium none;
+    text-decoration: none;
+}
+
 #content-wrapper .portletNavigationTree a,
 #content-wrapper .portletNavigationTree a:link,
 #content-wrapper .portletNavigationTree a:visited,
@@ -145,6 +151,10 @@ body {
     font-size: 230%;
     font-weight: normal;
     margin-bottom: 8px;
+}
+
+#footer-wrapper .arrow-list li {
+    font-size: 130%;
 }
 
 #footer-wrapper .news li {
