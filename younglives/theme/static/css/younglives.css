@@ -270,3 +270,10 @@ div.news-list ul {
     margin-left: 0;
     margin-right: 0;
 }
+
+#content table th,
+#content table td
+{
+    border: 1px solid #CCCCCC;
+    padding: 5px;
+}
