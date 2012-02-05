@@ -277,3 +277,19 @@ div.news-list ul {
     border: 1px solid #CCCCCC;
     padding: 5px;
 }
+
+#portal-personaltools
+{
+    background-color: #4E2F91;
+}
+
+#portal-personaltools.deactivated a
+{
+    color: #B897E3;
+}
+
+#portal-personaltools.deactivated a:hover,
+#portal-personaltools.deactivated a:visited
+{
+    color: white;
+}
