@@ -9,9 +9,20 @@ body {
     border-bottom: 2px solid #F1EDDF;
 }
 
-a:hover
+#content-wrapper .portletNavigationTree a,
+#content-wrapper .portletNavigationTree a:link,
+#content-wrapper .portletNavigationTree a:visited,
+#content-wrapper .portletNavigationTree a:active
 {
-    text-decoration: underline;
+    color: #4E2F91 !important;
+    outline: medium none;
+    text-decoration: none;
+    font-size: 120%;
+}
+
+#content-wrapper .portletNavigationTree a:hover
+{
+    text-decoration: underline !important;
 }
 
 #header-wrapper {
@@ -68,6 +79,11 @@ a:hover
 #portal-breadcrumbs a
 {
     font-size: 0.93em;
+}
+
+#content-wrapper
+{
+    margin-top: 26px;
 }
 
 .documentActions
@@ -169,16 +185,6 @@ a:hover
 li.stButton a.chicklets
 {
     font-size: 110% !important;
-}
-
-a, a:link,
-a:visited,
-a:hover,
-a:active
-{
-    color: #4E2F91;
-    outline: medium none;
-    text-decoration: none;
 }
 
 span.date
