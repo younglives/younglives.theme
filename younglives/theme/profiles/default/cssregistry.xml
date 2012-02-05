@@ -5,6 +5,9 @@
     id="++theme++younglives.theme/css/grid.css"
     expression="request/HTTP_X_THEME_ENABLED | nothing"/>
  <stylesheet
+    id="++theme++younglives.theme/css/960_24_col.css"
+    expression="request/HTTP_X_THEME_ENABLED | nothing"/>
+ <stylesheet
     id="++theme++younglives.theme/css/theme.css"
     expression="request/HTTP_X_THEME_ENABLED | nothing"/>
  <stylesheet
