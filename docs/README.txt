@@ -1,6 +1,5 @@
 Introduction
 ============
 
-
-
-This product may contain traces of nuts.
+This is based on a ZopeSkel recipe:
+http://plone.org/products/toutpt.zopeskel
