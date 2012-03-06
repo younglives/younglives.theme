@@ -303,3 +303,8 @@ div.news-list ul {
 {
     color: white;
 }
+
+#content
+{
+    margin: 0;
+}
