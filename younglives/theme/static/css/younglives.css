@@ -89,7 +89,7 @@ a, a:link, a:visited, a:hover, a:active {
 
 #content-wrapper
 {
-    margin-top: 26px;
+    padding-top: 26px;
 }
 
 .documentActions
