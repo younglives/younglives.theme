@@ -6,7 +6,6 @@ body {
 .portaltype-homepage #content-wrapper
 {
     background-color: white;
-    border-bottom: 2px solid #F1EDDF;
 }
 
 a, a:link, a:visited, a:hover, a:active {
@@ -268,6 +267,12 @@ span.date
 {
     margin-bottom: 15px;
     color: #837562;
+}
+
+#homepage-box-wrapper
+{
+    border-top: 2px solid #F1EDDF;
+    padding-top: 20px;
 }
 
 div.news-list ul {
