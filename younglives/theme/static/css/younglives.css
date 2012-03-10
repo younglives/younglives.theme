@@ -68,6 +68,7 @@ a:hover
 {
     color: #ffffff;
     background: none repeat scroll 0 0 #4E2F91;
+    text-decoration: none;
 }
 
 #breadcrumbs-wrapper
@@ -268,7 +269,7 @@ span.date
     background: url("++theme++younglives.theme/images/bg-nav.png") no-repeat scroll left center transparent;
 }
 
-#portal-column-two .news-list h3
+#portal-column-two h3
 {
     margin-bottom: 15px;
     color: #837562;
