@@ -6,8 +6,9 @@
   css:if-content="#visual-portal-wrapper"
   >
 
-    <theme href="theme-homepage.html" if="$is_home_page"/>
+    <theme href="theme-one.html" css:if-content=".template-default_error_message"/>
     <theme href="theme-three.html" css:if-content=".template-manage-portlets"/>
+    <theme href="theme-homepage.html" if="$is_home_page"/>
     <theme href="theme-three.html" if="$have_both_portlets"/>
     <theme href="theme-two-left.html" if="$have_left_portlets"/>
     <theme href="theme-two-right.html" if="$have_right_portlets"/>
