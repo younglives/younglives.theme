@@ -313,3 +313,22 @@ div.news-list ul {
 {
     margin: 0;
 }
+
+/* These are for the folder listing view */
+#portal-column-content div.info {float:left; margin:0 0 14px 0; padding:0 0 10px 0; border-bottom:1px solid #D6D0DE; width:100%;}
+#portal-column-content div.info:last-child {border-bottom:none;}
+#portal-column-content div.info h4 {line-height:1.2; margin:-2px 0 8px 0; font-size:1.25em;}
+#portal-column-content div.info h4 em {font-size:.84em; font-style:normal;}
+#portal-column-content div.info h4 em:before {content:'(';}
+#portal-column-content div.info h4 em:after {content:')';}
+#portal-column-content div.info h4 span {display:block; font-size:.76em; font-weight:bold; margin:4px 0 0 0;}
+#portal-column-content div.info h4 a span {color:#404040;}
+#portal-column-content div.info p {margin:0;}
+#portal-column-content div.info p.pubdate {color:#837562; margin:0 0 -2px 0; font-size:1.08em;}
+#portal-column-content div.info p.pubinfo {margin:0 0 8px 0;}
+#portal-column-content div.info p.date {font-weight:bold; font-size:.92em; margin:-8px 0 6px;}
+#portal-column-content div.info p.download {font-size:.92em; margin-top:6px;}
+#portal-column-content div.info p.download a {font-weight:bold; padding-left:18px; background:url(../assets/download.png) no-repeat 0 1px;}
+#portal-column-content div.info p.thumb {overflow:hidden; position:relative; clear:right; float:right; margin:0 0 0 15px;}
+#portal-column-content div.info.gallery p.thumb {clear:left; float:left; margin:0 15px 0 0;}
+/* END folder listing view */
