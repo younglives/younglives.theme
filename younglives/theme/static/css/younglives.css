@@ -28,11 +28,8 @@ dl.portlet ul li a
 {
     padding: 8px 10px 8px 26px;
     line-height: 1.1em;
-}
-
-dl.portlet ul li a span
-{
-    line-height: 1.1em;
+    background: url("++theme++younglives.theme/images/bg-nav.png") no-repeat scroll left center transparent;
+    display: block;
 }
 
 .portletNavigationTree a,
@@ -279,10 +276,6 @@ span.date
     display: inline;
     font-style: italic;
     padding-right: 20px;
-}
-
-#portal-column-one .portletNavigationTree ul li a {
-    background: url("++theme++younglives.theme/images/bg-nav.png") no-repeat scroll left center transparent;
 }
 
 #portal-column-two h3
