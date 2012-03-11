@@ -292,8 +292,19 @@ span.date
     padding-top: 20px;
 }
 
-div.news-list ul {
-    font-size: 0.86em;
+div.news-list ul
+{
+    font-size: 90%;
+}
+
+#portal-column-two div.news-list ul
+{
+    font-size: 83.5%;
+}
+
+#portal-column-two div.news-list ul li
+{
+    line-height: 1.2em;
 }
 
 #footer-wrapper .grid_12
