@@ -24,7 +24,7 @@ dl.portlet ul li
     background: url("++resource++younglives.homepage.images/bg-nav-border.png") repeat-x scroll left bottom transparent;
 }
 
-dl.portlet ul li a
+#portal-column-one dl.portlet ul li a
 {
     padding: 8px 10px 8px 26px;
     line-height: 1.1em;
