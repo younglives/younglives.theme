@@ -381,3 +381,29 @@ div.news-list ul
     font-size: 120%;
     font-weight: bold;
 }
+
+/* forms */
+.formHolder label {font-weight : bold;}
+.formHolder fieldset {margin:0; padding:0; border:none;}
+.formHolder legend {font-size:1.2em; font-weight:bold; margin:0; color:#837562; float:left;}
+.formHolder input:focus, input[type="text"]:focus, .form-holder input[type="password"]:focus, .form-holder textarea:focus, .form-holder select:focus {border-color:#4E2F91; background:#fff;}
+
+.formHolder form {padding:0; margin:10px 0 20px 0;}
+.formHolder form ul {padding:0; margin:0; width:100%;}
+.formHolder form ul li {list-style-type:none; margin-bottom:5px; clear:left;}
+.formHolder form ul li label {display:block; padding:5px 0 4px 0; cursor:pointer;}
+.formHolder form ul li label span {display:inline; font-weight:normal;}
+.formHolder form ul li input, form ul li textarea {background-image:none; padding:5px 5px; border:1px solid #D4CCAB; font-family:inherit; font-size:inherit; color:inherit; width:400px;}
+.formHolder form ul li textarea {}
+.formHolder form ul li select {padding:5px 5px; border:1px solid #D4CCAB;}
+.formHolder form ul li input.checkbox {width:auto; cursor:pointer; padding:0; background:none; border:none; margin:4px 0;}
+.formHolder form ul li input#submit, form ul li input.button {background-color:#4E2F91; border:none; height:auto; width:auto; cursor:pointer; color:#fff; font-weight:700; font-size:1em; font-family:Arial, Helvetica, sans-serif; overflow:hidden; margin-right:10px;}
+.formHolder form ul li input#submit:hover, form ul li input.button:hover {background-color:#35157C; color:#fff;}
+
+.formHolder form ul.checkbox {float:left; margin:10px 0;}
+.formHolder form ul.checkbox li {float:left; margin:0 0 6px 0;}
+.formHolder form ul.checkbox li label {display:block; padding:0; cursor:pointer; width:437px; margin:0 0 0 20px; float:left; font-weight:normal;}
+.formHolder form ul.checkbox li input {width:auto; margin:2px 0 0 -457px; float:left; background:none; padding:0;}
+
+.formHolder form ul li div.error {border:none; background:transparent; color:#f00; font-weight:bold; margin:-6px 0 0 0; padding:0;}
+/* end forms */
