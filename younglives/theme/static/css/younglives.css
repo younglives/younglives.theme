@@ -408,7 +408,8 @@ div.news-list ul
 .formHolder form ul li div.error {border:none; background:transparent; color:#f00; font-weight:bold; margin:-6px 0 0 0; padding:0;}
 /* end forms */
 
-#portal-column-content #content p
+#portal-column-content #content p,
+#portal-column-content #content li
 {
     font-size: 121%;
 }
