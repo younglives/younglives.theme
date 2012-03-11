@@ -418,3 +418,8 @@ div.news-list ul
 {
     font-size: 121%;
 }
+
+/* publication page */
+#content ul.publication-info {padding:10px 0; margin-bottom:10px; list-style-type:none; border-bottom:1px solid #D6D0DE; border-top:1px solid #D6D0DE;}
+ul.publication-info li a {padding-left:18px; background:url(++theme++younglives.theme/images/download.png) no-repeat 0 1px;}
+/* End publication page */
