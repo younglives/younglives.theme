@@ -4,7 +4,7 @@
         <img tal:replace="structure img/tag" tal:condition="img"/>
     </div>
     <div class="footer-blocks" tal:condition="not:isHomepage">
-        <div class="block" tal:repeat="box view/boxes">
+        <div class="grid_6 block" tal:repeat="box view/boxes">
             <h6 tal:content="box/title" />
             <ul class="arrow-list">
                 <li tal:repeat="link box/links"
@@ -16,7 +16,7 @@
             </ul>
         </div>
     </div>
-    <div class="block news">
+    <div class="grid_6 block news">
         <h6>Find out more</h6>
         <ul>
             <li>

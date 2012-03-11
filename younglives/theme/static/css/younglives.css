@@ -285,7 +285,8 @@ span.date
     font-size: 113%;
 }
 
-#homepage-box-wrapper
+#homepage-box-wrapper,
+#portal-footer
 {
     border-top: 2px solid #F1EDDF;
     padding-top: 20px;
