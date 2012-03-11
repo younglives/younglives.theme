@@ -361,9 +361,17 @@ div.news-list ul
 #portal-column-content div.info.gallery p.thumb {clear:left; float:left; margin:0 15px 0 0;}
 /* END folder listing view */
 
-#portal-column-content h2 {
+#portal-column-content h2
+{
     margin-bottom: 15px;
     color: #837562;
     font-size: 220%;
     font-weight: normal;
+}
+
+#portal-column-content h6
+{
+    margin-bottom: 15px;
+    font-size: 120%;
+    font-weight: bold;
 }
