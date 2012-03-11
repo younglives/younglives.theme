@@ -13,4 +13,7 @@
  <javascript
     id="++theme++younglives.theme/js/share_this.js"/>
 
+ <javascript
+    id="++theme++younglives.theme/js/datacapture.js"/>
+
 </object>

@@ -423,3 +423,25 @@ div.news-list ul
 #content ul.publication-info {padding:10px 0; margin-bottom:10px; list-style-type:none; border-bottom:1px solid #D6D0DE; border-top:1px solid #D6D0DE;}
 ul.publication-info li a {padding-left:18px; background:url(++theme++younglives.theme/images/download.png) no-repeat 0 1px;}
 /* End publication page */
+
+/* captured popups */
+#captureddata-form {}
+#captureddata-form form {padding:0; margin:10px 0 20px 0;}
+#captureddata-form form ul {padding:0; margin:0; width:100%;}
+#captureddata-form form ul li input.checkbox {width:auto; cursor:pointer; padding:0; background:none; border:none; margin:4px 0;}
+#captureddata-form form ul li input#form-buttons-skip {background-color:#D4CCAB; border:none; height:auto; width:auto; cursor:pointer; color:#fff; font-weight:700; font-size:1em; font-family:Arial, Helvetica, sans-serif; overflow:hidden;}
+#captureddata-form form ul li input#form-buttons-skip:hover {background-color:#D4CCAB; color:#fff;}
+.formHolder input.submit-widget {
+    background-color: #4E2F91;
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    height: auto;
+    overflow: hidden;
+    width: auto;
+    margin-right: 5px;
+}
+/* End captured popups */
