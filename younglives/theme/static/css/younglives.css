@@ -314,6 +314,11 @@ div.news-list ul
     margin-right: 0;
 }
 
+#portal-column-content #content
+{
+    color: #404040;
+}
+
 #content table th,
 #content table td
 {
@@ -361,7 +366,7 @@ div.news-list ul
 #portal-column-content div.info p.pubinfo {margin:0 0 8px 0;}
 #portal-column-content div.info p.date {font-weight:bold; font-size:.92em; margin:-8px 0 6px;}
 #portal-column-content div.info p.download {font-size:.92em; margin-top:6px;}
-#portal-column-content div.info p.download a {font-weight:bold; padding-left:18px; background:url(../assets/download.png) no-repeat 0 1px;}
+#portal-column-content div.info p.download a {font-weight:bold; padding-left:18px; background:url(++theme++younglives.theme/images/download.png) no-repeat 0 1px;}
 #portal-column-content div.info p.thumb {overflow:hidden; position:relative; clear:right; float:right; margin:0 0 0 15px;}
 #portal-column-content div.info.gallery p.thumb {clear:left; float:left; margin:0 15px 0 0;}
 /* END folder listing view */
@@ -445,3 +450,8 @@ ul.publication-info li a {padding-left:18px; background:url(++theme++younglives.
     margin-right: 5px;
 }
 /* End captured popups */
+
+#searchGadget
+{
+    margin-right: 5px;
+}
