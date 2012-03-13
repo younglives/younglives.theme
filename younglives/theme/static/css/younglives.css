@@ -111,6 +111,12 @@ dl.portlet ul li
     display: none;
 }
 
+#portal-column-content h1,
+#portal-column-content h2
+{
+    font-family: "Gill Sans","Trebuchet MS",Calibri,sans-serif;
+}
+
 #content-wrapper
 {
     padding-top: 26px;
