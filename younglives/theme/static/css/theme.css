@@ -37,7 +37,6 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Helvetica Neue", Arial, FreeSans, sans-serif;
     font-weight: bold;
     color: Black;
     line-height: 1.5em;
@@ -78,9 +77,6 @@ a:focus img {
 }
 dt {
     font-weight: bold;
-}
-input {
-    font-family: "Lucida Grande", Arial, FreeSans;
 }
 
 q {
@@ -1459,7 +1455,6 @@ fieldset,
 /* Emulates the styling from the h1 tag */
 #content .field input[type="text"][name$=".title"],
 #archetypes-fieldname-title input {
-    font-family: "Helvetica Neue", Arial, FreeSans, sans-serif;
     line-height: 125%;
     color: Black;
     letter-spacing: -0.05em;
@@ -1471,7 +1466,6 @@ fieldset,
 /* Emulates styling from the description's view */
 #content .field textarea[name$=".description"],
 #archetypes-fieldname-description textarea#description {
-    font-family: Arial,FreeSans,sans-serif;
     color:#666666;
     font-size:1.25em;
     font-weight: bold;
