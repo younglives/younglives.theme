@@ -477,3 +477,23 @@ ul.publication-info li a {padding-left:18px; background:url(++theme++younglives.
 {
     margin-right: 5px;
 }
+
+dl.portletStaticText
+{
+    background: none repeat scroll 0 0 #E3E3E4;
+    color: #404040;
+    margin-bottom: 15px;
+}
+
+dl.portletStaticText p
+{
+    font-size: 115%;
+    line-height: 1.5;
+}
+
+dl.portletStaticText p img
+{
+    margin-left: -11px;
+    float: left;
+    padding-bottom: 0.5em;
+}
