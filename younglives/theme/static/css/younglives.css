@@ -20,6 +20,13 @@ a:hover
     text-decoration: underline;
 }
 
+dt.portletHeader
+{
+    font-weight: normal;
+    font-size: 130%;
+    color: #837562;
+}
+
 dl.portlet ul li
 {
     background: url("++resource++younglives.homepage.images/bg-nav-border.png") repeat-x scroll left bottom transparent;
@@ -431,6 +438,12 @@ div.news-list ul
 #portal-column-content #content li
 {
     font-size: 121%;
+    line-height: 1.5;
+}
+
+#portal-column-two ul
+{
+    line-height: 1.5;
 }
 
 /* publication page */
