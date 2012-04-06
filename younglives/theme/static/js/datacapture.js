@@ -1,5 +1,19 @@
 jQuery(function($){
 
+    // method to show error message in a noform
+    // situation.
+    // this should not need to be here
+    function noformerrorshow(el, noform) {
+        var o = $(el);
+        var emsg = o.find('dl.portalMessage.error');
+        if (emsg.length) {
+            o.children().replaceWith(emsg);
+            return false;
+        } else {
+            return noform;
+        }
+    }
+
     // After deletes we need to redirect to the target page.
     function redirectbasehref(el, responseText) {
         var mo = responseText.match(/<base href="(.+?)"/i);
