@@ -2147,3 +2147,13 @@ div.overlay .formControls a {
     display: none;
 }
 /* @end */
+
+#content .documentDescription
+{
+    margin-bottom: 0.5em;
+}
+
+.eventDetails
+{
+    width: 300px;
+}
