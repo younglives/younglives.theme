@@ -2157,3 +2157,8 @@ div.overlay .formControls a {
 {
     width: 300px;
 }
+
+dl.portlet ul.navTreeLevel1 .navTreeItem
+{
+    padding-left: 0.5em;
+}
