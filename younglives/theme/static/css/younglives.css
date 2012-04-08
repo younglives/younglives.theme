@@ -6,6 +6,7 @@ body {
 
 .portaltype-homepage #content-wrapper
 {
+    padding-bottom: 1em;
     background-color: white;
 }
 
@@ -13,6 +14,11 @@ a, a:link, a:visited, a:hover, a:active {
     color: #4E2F91;
     outline: medium none;
     text-decoration: none;
+}
+
+#content a:visited
+{
+    color: #4E2F91;
 }
 
 a:hover
