@@ -2,6 +2,29 @@
 <object name="portal_actions" meta_type="Plone Actions Tool"
    xmlns:i18n="http://xml.zope.org/namespaces/i18n">
  <object name="user" meta_type="CMF Action Category">
+  <property name="title"></property>
+  <object name="intranet" meta_type="CMF Action" i18n:domain="plone">
+   <property name="title" i18n:translate="">Intranet</property>
+   <property name="description" i18n:translate=""></property>
+   <property name="url_expr">string:${portal_url}/intranet</property>
+   <property name="link_target"></property>
+   <property name="icon_expr"></property>
+   <property name="available_expr">python:member is not None</property>
+   <property name="permissions">
+   </property>
+   <property name="visible">True</property>
+  </object>
+  <object name="intranet-login" meta_type="CMF Action" i18n:domain="plone">
+   <property name="title" i18n:translate="">Staff Intranet</property>
+   <property name="description" i18n:translate=""></property>
+   <property name="url_expr">string:${portal_url}/intranet</property>
+   <property name="link_target"></property>
+   <property name="icon_expr"></property>
+   <property name="available_expr">python:member is None and getattr(context, "portal_type", "") in ['Plone Site', 'HomePage']</property>
+   <property name="permissions">
+   </property>
+   <property name="visible">True</property>
+  </object>
   <object name="login" meta_type="CMF Action" i18n:domain="plone">
    <property name="title" i18n:translate="">Staff Login</property>
    <property name="description" i18n:translate=""></property>
