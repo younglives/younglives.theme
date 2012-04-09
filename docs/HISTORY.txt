@@ -1,8 +1,12 @@
 Changelog
 =========
 
-1.0.1 Unreleased
+1.0.1 2012/04/09
 ----------------
+
+ - Minor css fixes
+ - Add login actions
+ - Fix the data capture form
 
 1.0.0 2012/03/17
 ----------------
