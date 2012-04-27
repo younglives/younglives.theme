@@ -48,4 +48,5 @@
     <append css:content-children="#younglives-footer" css:theme="#portal-footer" />
     <append css:content-children="#portal-siteactions" css:theme="#portal-siteactions" />
 
+    <append content="//*[@id='google-analytics']/*" theme="/html/body" />
 </rules>
