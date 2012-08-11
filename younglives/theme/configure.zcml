@@ -8,6 +8,7 @@
     i18n_domain="younglives.theme">
 
   <five:registerPackage package="." initialize=".initialize" />
+  <include package="plone.resource" file="meta.zcml"/> 
 
   <include package=".browser" />
 
