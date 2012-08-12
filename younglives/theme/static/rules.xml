@@ -36,6 +36,9 @@
     <drop css:content="#portal-breadcrumbs"/>
     <append css:theme="#portal-breadcrumbs"><xsl:copy-of css:select="#portal-breadcrumbs"/></append>
 
+<!-- COUNTRY BANNER -->
+    <drop css:content="#country-banner-india" if-not="$is_india"/>
+
 <!-- CONTENT -->
     <append css:content-children="#portal-column-content" css:theme="#portal-column-content" />
     <append css:content-children="#portal-column-one" css:theme="#portal-column-one" />
