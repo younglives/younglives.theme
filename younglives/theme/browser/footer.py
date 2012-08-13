@@ -13,7 +13,7 @@ from Products.CMFCore.utils import getToolByName
 from younglives.homepage.interfaces import IHomePage
 
 # local
-from younglives.content.interfaces import ISiteTabMarker, IHomepageBoxAware
+from younglives.content.interfaces import IHomepageBoxAware
 
 class FooterViewlet(ViewletBase):
     """ Footer viewlet """
