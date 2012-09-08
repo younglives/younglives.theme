@@ -47,6 +47,13 @@
                     Contact us
                 </a>
             </li>
+            <li>
+                <a title="Facebook"
+                    href="http://www.facebook.com/mrdavisuk">
+                    <img src="++theme++younglives.theme/images/contact.png" />
+                    Join us on Facebook
+                </a>
+            </li>
         </ul>
     </div>
     <div class="logo" tal:condition="isHomepage">
