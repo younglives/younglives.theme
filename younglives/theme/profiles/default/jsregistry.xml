@@ -2,9 +2,6 @@
 <object name="portal_javascripts">
 
  <javascript
-    id="++theme++younglives.theme/js/theme.js"/>
-
- <javascript
     id="++theme++younglives.theme/js/modernizr.js"/>
 
 </object>

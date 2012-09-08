@@ -1,5 +1,0 @@
-
-function initializeyounglivestheme(){
-
-}
-jQuery(initializeyounglivestheme);
