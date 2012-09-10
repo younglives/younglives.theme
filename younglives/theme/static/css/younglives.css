@@ -228,14 +228,20 @@ dl.portlet ul li
     background: none;
 }
 
-#document-action-print .chicklets
+#document-action-print
 {
     background: url("++theme++younglives.theme/images/icon_print.png") no-repeat scroll left top transparent;
 }
 
-li.stButton a.chicklets
+#document-action-email
 {
-    font-size: 110% !important;
+    background: url("++theme++younglives.theme/images/mail_icon.png") no-repeat scroll left top transparent;
+}
+
+#document-action-email,
+#document-action-print
+{
+    padding-left: 20px;
 }
 
 span.date
