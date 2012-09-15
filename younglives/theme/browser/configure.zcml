@@ -20,14 +20,4 @@
         layer="younglives.theme.browser.interfaces.IThemeSpecific"
         permission="zope2.View" />
 
-  <!-- Document actions is customised here, but hidden, as theme specific one is used
-       to enable the share this link to be added with the correct css class
-       can be removed once plone specific product is used instead -->
-  <browser:viewlet
-      name="plone.abovecontenttitle.documentactions"
-      manager="plone.app.layout.viewlets.interfaces.IAboveContent"
-      class="plone.app.layout.viewlets.content.DocumentActionsViewlet"
-      permission="zope2.View"
-      />
-
 </configure>
