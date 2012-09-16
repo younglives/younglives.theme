@@ -509,3 +509,8 @@ dl.portletStaticText p img
 {
     padding-bottom: 1em;
 }
+
+#younglives-homepage-middle .documentActions
+{
+    visibility: hidden;
+}
