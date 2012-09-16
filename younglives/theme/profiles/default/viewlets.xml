@@ -2,6 +2,5 @@
 <object>
   <hidden manager="plone.belowcontentbody" skinname="Young Lives Theme">
     <viewlet name="plone.belowcontentbody.relateditems" />
-    <viewlet name="plone.abovecontenttitle.documentactions" />
   </hidden>
 </object>
