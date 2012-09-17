@@ -34,6 +34,13 @@
                 </a>
             </li>
             <li>
+                <a title="Like us on Facebook"
+                    href="http://www.facebook.com/pages/Young-Lives-An-International-Study-of-Childhood-Poverty/232144236892777">
+                    <img src="++theme++younglives.theme/images/round_facebook_icon.png" />
+                    Like us on Facebook
+                </a>
+            </li>
+            <li>
                 <a title="iTunes U podcasts"
                     tal:attributes="href string:${context/portal_url}/what-we-do/news-and-events/podcasts">
                     <img src="++theme++younglives.theme/images/podcasts.png" />
@@ -45,13 +52,6 @@
                     tal:attributes="href string:${context/portal_url}/who-we-are/contact-details">
                     <img src="++theme++younglives.theme/images/contact.png" />
                     Contact us
-                </a>
-            </li>
-            <li>
-                <a title="Like us on Facebook"
-                    href="http://www.facebook.com/pages/Young-Lives-An-International-Study-of-Childhood-Poverty/232144236892777">
-                    <img src="++theme++younglives.theme/images/round_facebook_icon.png" />
-                    Like us on Facebook
                 </a>
             </li>
         </ul>
