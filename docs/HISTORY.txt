@@ -1,8 +1,12 @@
 Changelog
 =========
 
-1.0.2 Unreleased
+1.0.2 2012/09/18
 ----------------
+
+ - Add the country banner
+ - Add facebook links
+ - Remove the sharethis, capture form and customised document actions
 
 1.0.1 2012/04/09
 ----------------
