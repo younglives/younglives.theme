@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: younglives.theme\n"
 "POT-Creation-Date: 2010-11-10 11:05+0000\n"
 "PO-Revision-Date: 2008-02-04 18:00+0000\n"
-"Last-Translator: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
+"Last-Translator: Michael Davis <m.r.davis@lib-usr.co.uk>\n"
 "Language-Team: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=iso-8859-1\n"
@@ -14,3 +14,11 @@ msgstr ""
 "Language-Name: English\n"
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: younglives.theme\n"
+
+#: ./profiles/default/actions.xml
+msgid "Facebook"
+msgstr "Facebook"
+
+#: ./profiles/default/actions.xml
+msgid "Like us on Facebook"
+msgstr "Giống như chúng tôi trên Facebook"
