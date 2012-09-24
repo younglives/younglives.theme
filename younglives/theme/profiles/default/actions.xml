@@ -53,8 +53,8 @@
    <property name="visible">True</property>
   </object>
   <object name="facebook" meta_type="CMF Action" i18n:domain="younglives.theme">
-   <property name="title" i18n:translate="">Facebook</property>
-   <property name="description" i18n:translate="">Like us on Facebook</property>
+   <property name="title" i18n:translate="younglives_theme_label_facebook">Facebook</property>
+   <property name="description" i18n:translate="younglives_theme_description_facebook">Like us on Facebook</property>
    <property name="url_expr">string:http://www.facebook.com/pages/Young-Lives-An-International-Study-of-Childhood-Poverty/232144236892777</property>
    <property name="link_target"></property>
    <property name="icon_expr">string:$portal_url/facebook_icon.png</property>
