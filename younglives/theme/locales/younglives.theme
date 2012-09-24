@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2012-09-23 12:41+0000\n"
+"POT-Creation-Date: 2012-09-24 17:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,11 +17,13 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: younglives.theme\n"
 
+#. Default: "Like us on Facebook"
 #: ./profiles/default/actions.xml
-msgid "Facebook"
+msgid "younglives_theme_description_facebook"
 msgstr ""
 
+#. Default: "Facebook"
 #: ./profiles/default/actions.xml
-msgid "Like us on Facebook"
+msgid "younglives_theme_label_facebook"
 msgstr ""
 
