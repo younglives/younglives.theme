@@ -12,13 +12,13 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Language-Code: en\n"
 "Language-Name: English\n"
-"Preferred-Encodings: utf-8 latin1\n"
+"Preferred-Encodings: utf-8\n"
 "Domain: younglives.theme\n"
 
 #: ./profiles/default/actions.xml
 msgid "Facebook"
-msgstr "Facebook"
+msgstr ""
 
 #: ./profiles/default/actions.xml
 msgid "Like us on Facebook"
-msgstr "Giống như chúng tôi trên Facebook"
+msgstr ""
