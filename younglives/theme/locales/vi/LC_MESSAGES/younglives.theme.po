@@ -63,10 +63,10 @@ msgstr "Tin tức & Sự kiện"
 #. Default: "Sitemap"
 #: ./browser/footer.pt:68
 msgid "younglives_theme_label_sitemap"
-msgstr "Sơ đồ Hệ thống"
+msgstr "Sơ đồ web"
 
 #. Default: "Terms & Conditions"
 #: ./browser/footer.pt:72
 msgid "younglives_theme_label_terms_conditions"
-msgstr "Điều khoản và điều kiện"
+msgstr "Điều khoản sử dụng"
 
