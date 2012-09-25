@@ -33,7 +33,7 @@ msgstr "Liên hệ"
 #. Default: "E-newsletter / e-alerts"
 #: ./browser/footer.pt:35
 msgid "younglives_theme_label_enewsletter"
-msgstr "E-bản tin / e-cảnh báo"
+msgstr "Đăng ký nhận tin cập nhật qua email"
 
 #. Default: "Facebook"
 #: ./profiles/default/actions.xml
