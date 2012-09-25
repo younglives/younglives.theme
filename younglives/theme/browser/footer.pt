@@ -1,5 +1,7 @@
 <div id="younglives-footer"
-    tal:define="isHomepage view/isHomepage">
+     xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+     i18n:domain="younglives.theme"
+     tal:define="isHomepage view/isHomepage">
     <div class="footer-img" tal:condition="isHomepage" tal:define="img view/footer_image">
         <img tal:replace="structure img/tag" tal:condition="img"/>
     </div>
@@ -23,35 +25,35 @@
                 <a title="News &amp; Events"
                     tal:attributes="href string:${context/portal_url}/what-we-do/news-and-events">
                     <img src="++theme++younglives.theme/images/quotes.png" />
-                    News &amp; Events
+                    <span i18n:translate="younglives_theme_label_news_and_events">News &amp; Events</span>
                 </a>
             </li>
             <li>
                 <a title="E-newsletter / e-alerts"
                     tal:attributes="href string:${context/portal_url}/who-we-are/find-out-more">
                     <img src="++theme++younglives.theme/images/alerts.png" />
-                    E-newsletter / e-alerts
+                    <span i18n:translate="younglives_theme_label_enewsletter">E-newsletter / e-alerts</span>
                 </a>
             </li>
             <li>
                 <a title="Like us on Facebook"
                     href="http://www.facebook.com/pages/Young-Lives-An-International-Study-of-Childhood-Poverty/232144236892777">
                     <img src="++theme++younglives.theme/images/round_facebook_icon.png" />
-                    Like us on Facebook
+                    <span i18n:translate="younglives_theme_label_like_facebook">Like us on Facebook</span>
                 </a>
             </li>
             <li>
                 <a title="iTunes U podcasts"
                     tal:attributes="href string:${context/portal_url}/what-we-do/news-and-events/podcasts">
                     <img src="++theme++younglives.theme/images/podcasts.png" />
-                    iTunes U podcasts
+                    <span i18n:translate="younglives_theme_label_itunes">iTunes U podcasts</span>
                 </a>
             </li>
             <li>
                 <a title="Contact us" accesskey="6"
                     tal:attributes="href string:${context/portal_url}/who-we-are/contact-details">
                     <img src="++theme++younglives.theme/images/contact.png" />
-                    Contact us
+                    <span i18n:translate="younglives_theme_label_contact_us">Contact us</span>
                 </a>
             </li>
         </ul>
@@ -65,12 +67,15 @@
         <ul>
             <li><a href="#" title="Sitemap" accesskey="3"
                 tal:attributes="href string:${context/portal_url}/sitemap"
+                i18n:translate="younglives_theme_label_sitemap"
                 >Sitemap</a></li>
             <li><a href="#" title="Terms and Conditions"
                 tal:attributes="href string:${context/portal_url}/terms-and-conditions"
+                i18n:translate="younglives_theme_label_terms_conditions"
                 >Terms &amp; Conditions</a></li>
             <li class="last"><a href="#" title="Accessibility statement" accesskey="0"
                 tal:attributes="href string:${context/portal_url}/accessibility-info"
+                i18n:translate="younglives_theme_label_accessibility"
                 >Accessibility statement</a></li>
             <tal:modified condition="not:isHomepage"
                 define="toLocalizedTime nocall:context/@@plone/toLocalizedTime">
