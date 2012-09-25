@@ -18,7 +18,7 @@ msgstr ""
 #. Default: "Like us on Facebook"
 #: ./profiles/default/actions.xml
 msgid "younglives_theme_description_facebook"
-msgstr "Giống như chúng tôi trên Facebook"
+msgstr "Theo dõi chúng tôi trên Facebook"
 
 #. Default: "Accessibility statement"
 #: ./browser/footer.pt:76
@@ -53,7 +53,7 @@ msgstr ""
 #. Default: "Like us on Facebook"
 #: ./browser/footer.pt:42
 msgid "younglives_theme_label_like_facebook"
-msgstr "Giống như chúng tôi trên Facebook"
+msgstr "Theo dõi chúng tôi trên Facebook"
 
 #. Default: "News & Events"
 #: ./browser/footer.pt:28
