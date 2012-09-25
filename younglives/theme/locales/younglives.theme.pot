@@ -1,24 +1,69 @@
-# Gettext Message File for younglives.theme
+# --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 msgid ""
 msgstr ""
-"Project-Id-Version: younglives.theme\n"
-"POT-Creation-Date: 2010-11-10 11:05+0000\n"
-"PO-Revision-Date: 2008-02-04 18:00+0000\n"
-"Last-Translator: Michael Davis <m.r.davis@lib-usr.co.uk>\n"
-"Language-Team: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2012-09-24 21:43+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 "Language-Code: en\n"
 "Language-Name: English\n"
-"Preferred-Encodings: utf-8\n"
+"Preferred-Encodings: utf-8 latin1\n"
 "Domain: younglives.theme\n"
 
+#. Default: "Like us on Facebook"
 #: ./profiles/default/actions.xml
-msgid "Facebook"
+msgid "younglives_theme_description_facebook"
 msgstr ""
 
-#: ./profiles/default/actions.xml
-msgid "Like us on Facebook"
+#. Default: "Accessibility statement"
+#: ./browser/footer.pt:76
+msgid "younglives_theme_label_accessibility"
 msgstr ""
+
+#. Default: "Contact us"
+#: ./browser/footer.pt:56
+msgid "younglives_theme_label_contact_us"
+msgstr ""
+
+#. Default: "E-newsletter / e-alerts"
+#: ./browser/footer.pt:35
+msgid "younglives_theme_label_enewsletter"
+msgstr ""
+
+#. Default: "Facebook"
+#: ./profiles/default/actions.xml
+msgid "younglives_theme_label_facebook"
+msgstr ""
+
+#. Default: "iTunes U podcasts"
+#: ./browser/footer.pt:49
+msgid "younglives_theme_label_itunes"
+msgstr ""
+
+#. Default: "Like us on Facebook"
+#: ./browser/footer.pt:42
+msgid "younglives_theme_label_like_facebook"
+msgstr ""
+
+#. Default: "News & Events"
+#: ./browser/footer.pt:28
+msgid "younglives_theme_label_news_and_events"
+msgstr ""
+
+#. Default: "Sitemap"
+#: ./browser/footer.pt:68
+msgid "younglives_theme_label_sitemap"
+msgstr ""
+
+#. Default: "Terms & Conditions"
+#: ./browser/footer.pt:72
+msgid "younglives_theme_label_terms_conditions"
+msgstr ""
+
