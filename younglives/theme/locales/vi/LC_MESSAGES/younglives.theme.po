@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: 2012-09-25 21:20+0000\n"
+"POT-Creation-Date: 2012-09-25 21:50+0000\n"
 "PO-Revision-Date: 2012-09-23 02:04+0100\n"
 "Last-Translator: Michael Davis <m.r.davis@lib-usr.co.uk>\n"
 "Language-Team: Vietnamese\n"
@@ -59,6 +59,11 @@ msgstr "Theo dõi chúng tôi trên Facebook"
 #: ./browser/footer.pt:28
 msgid "younglives_theme_label_news_and_events"
 msgstr "Tin tức & Sự kiện"
+
+#. Default: "Page last updated:"
+#: ./browser/footer.pt:83
+msgid "younglives_theme_label_page_last_updated"
+msgstr "Cập nhật lúc:"
 
 #. Default: "Sitemap"
 #: ./browser/footer.pt:68

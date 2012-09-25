@@ -79,7 +79,8 @@
                 >Accessibility statement</a></li>
             <tal:modified condition="not:isHomepage"
                 define="toLocalizedTime nocall:context/@@plone/toLocalizedTime">
-                <li class="update">Page last updated:
+                <li class="update">
+                    <span i18n:translate="younglives_theme_label_page_last_updated">Page last updated:</span>
                     <span tal:replace="python:toLocalizedTime(context.ModificationDate())" />
                 </li>
             </tal:modified>

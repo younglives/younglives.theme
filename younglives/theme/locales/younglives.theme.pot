@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2012-09-25 21:20+0000\n"
+"POT-Creation-Date: 2012-09-25 21:50+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,6 +60,11 @@ msgstr ""
 #. Default: "News & Events"
 #: ./browser/footer.pt:28
 msgid "younglives_theme_label_news_and_events"
+msgstr ""
+
+#. Default: "Page last updated:"
+#: ./browser/footer.pt:83
+msgid "younglives_theme_label_page_last_updated"
 msgstr ""
 
 #. Default: "Sitemap"
