@@ -19,7 +19,7 @@
         </div>
     </div>
     <div class="grid_6 block news">
-        <h6>Find out more</h6>
+        <h6 i18n:translate="younglives_theme_label_find_out_more">Find out more</h6>
         <ul>
             <li>
                 <a title="News &amp; Events"

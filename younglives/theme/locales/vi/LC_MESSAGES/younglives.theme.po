@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: 2012-09-24 21:43+0000\n"
+"POT-Creation-Date: 2012-09-25 21:20+0000\n"
 "PO-Revision-Date: 2012-09-23 02:04+0100\n"
 "Last-Translator: Michael Davis <m.r.davis@lib-usr.co.uk>\n"
 "Language-Team: Vietnamese\n"
@@ -39,6 +39,11 @@ msgstr "Đăng ký nhận tin cập nhật qua email"
 #: ./profiles/default/actions.xml
 msgid "younglives_theme_label_facebook"
 msgstr "Facebook"
+
+#. Default: "Find out more"
+#: ./browser/footer.pt:22
+msgid "younglives_theme_label_find_out_more"
+msgstr "Để biết thêm thông tin"
 
 #. Default: "iTunes U podcasts"
 #: ./browser/footer.pt:49

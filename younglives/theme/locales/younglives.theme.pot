@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2012-09-24 21:43+0000\n"
+"POT-Creation-Date: 2012-09-25 21:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,6 +40,11 @@ msgstr ""
 #. Default: "Facebook"
 #: ./profiles/default/actions.xml
 msgid "younglives_theme_label_facebook"
+msgstr ""
+
+#. Default: "Find out more"
+#: ./browser/footer.pt:22
+msgid "younglives_theme_label_find_out_more"
 msgstr ""
 
 #. Default: "iTunes U podcasts"
