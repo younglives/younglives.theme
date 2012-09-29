@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2012-09-25 21:50+0000\n"
+"POT-Creation-Date: 2012-09-29 19:40+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,6 +30,11 @@ msgstr ""
 #. Default: "Contact us"
 #: ./browser/footer.pt:56
 msgid "younglives_theme_label_contact_us"
+msgstr ""
+
+#. Default: "Email"
+#: ./profiles/default/actions.xml
+msgid "younglives_theme_label_email"
 msgstr ""
 
 #. Default: "E-newsletter / e-alerts"
@@ -65,6 +70,11 @@ msgstr ""
 #. Default: "Page last updated:"
 #: ./browser/footer.pt:83
 msgid "younglives_theme_label_page_last_updated"
+msgstr ""
+
+#. Default: "Print"
+#: ./profiles/default/actions.xml
+msgid "younglives_theme_label_print"
 msgstr ""
 
 #. Default: "Sitemap"
