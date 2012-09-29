@@ -41,8 +41,8 @@
  </object>
  <object name="document_actions" meta_type="CMF Action Category">
   <object name="print" meta_type="CMF Action" i18n:domain="plone">
-   <property name="title" i18n:translate="">Print</property>
-   <property name="description" i18n:translate=""></property>
+   <property name="title" i18n:translate="younglives_theme_label_print">Print</property>
+   <property name="description" i18n:translate="younglives_theme_description_print"></property>
    <property name="url_expr">string:javascript:this.print();</property>
    <property name="link_target"></property>
    <property name="icon_expr">string:$portal_url/print_icon.png</property>
@@ -65,8 +65,8 @@
    <property name="visible">True</property>
   </object>
   <object name="email" meta_type="CMF Action" i18n:domain="plone">
-   <property name="title" i18n:translate="">Email</property>
-   <property name="description" i18n:translate=""></property>
+   <property name="title" i18n:translate="younglives_theme_label_email">Email</property>
+   <property name="description" i18n:translate="younglives_theme_description_email"></property>
    <property name="url_expr">string:#</property>
    <property name="link_target"></property>
    <property name="icon_expr">string:$portal_url/print_icon.png</property>
