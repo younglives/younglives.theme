@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: 2012-09-30 15:03+0000\n"
+"POT-Creation-Date: 2012-09-30 16:26+0000\n"
 "PO-Revision-Date: 2012-09-23 02:04+0100\n"
 "Last-Translator: Michael Davis <m.r.davis@lib-usr.co.uk>\n"
 "Language-Team: Vietnamese\n"
@@ -51,6 +51,10 @@ msgstr "In"
 #: ./browser/footer.pt:73
 msgid "Sitemap"
 msgstr "Sơ đồ web"
+
+#: ./profiles/default/actions.xml
+msgid "Staff Intranet"
+msgstr "Nhân viên Intranet"
 
 #: ./browser/footer.pt:78
 msgid "Terms and Conditions"

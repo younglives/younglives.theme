@@ -14,7 +14,7 @@
    </property>
    <property name="visible">True</property>
   </object>
-  <object name="intranet-login" meta_type="CMF Action" i18n:domain="plone">
+  <object name="intranet-login" meta_type="CMF Action" i18n:domain="younglives.theme">
    <property name="title" i18n:translate="">Staff Intranet</property>
    <property name="description" i18n:translate=""></property>
    <property name="url_expr">string:${portal_url}/intranet</property>
