@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2012-09-30 12:27+0000\n"
+"POT-Creation-Date: 2012-09-30 15:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,18 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: younglives.theme\n"
 
+#: ./browser/footer.pt:83
+msgid "Accessibility statement"
+msgstr ""
+
+#: ./browser/footer.pt:57
+msgid "Contact us"
+msgstr ""
+
+#: ./browser/footer.pt:33
+msgid "E-newsletter / e-alerts"
+msgstr ""
+
 #: ./profiles/default/actions.xml
 msgid "Email"
 msgstr ""
@@ -25,26 +37,43 @@ msgstr ""
 msgid "Facebook"
 msgstr ""
 
+#: ./browser/footer.pt:41
 #: ./profiles/default/actions.xml
 msgid "Like us on Facebook"
+msgstr ""
+
+#: ./browser/footer.pt:25
+msgid "News & Events"
 msgstr ""
 
 #: ./profiles/default/actions.xml
 msgid "Print"
 msgstr ""
 
+#: ./browser/footer.pt:73
+msgid "Sitemap"
+msgstr ""
+
+#: ./browser/footer.pt:78
+msgid "Terms and Conditions"
+msgstr ""
+
+#: ./browser/footer.pt:49
+msgid "iTunes U podcasts"
+msgstr ""
+
 #. Default: "Accessibility statement"
-#: ./browser/footer.pt:76
+#: ./browser/footer.pt:83
 msgid "younglives_theme_label_accessibility"
 msgstr ""
 
 #. Default: "Contact us"
-#: ./browser/footer.pt:56
+#: ./browser/footer.pt:61
 msgid "younglives_theme_label_contact_us"
 msgstr ""
 
 #. Default: "E-newsletter / e-alerts"
-#: ./browser/footer.pt:35
+#: ./browser/footer.pt:37
 msgid "younglives_theme_label_enewsletter"
 msgstr ""
 
@@ -54,32 +83,32 @@ msgid "younglives_theme_label_find_out_more"
 msgstr ""
 
 #. Default: "iTunes U podcasts"
-#: ./browser/footer.pt:49
+#: ./browser/footer.pt:53
 msgid "younglives_theme_label_itunes"
 msgstr ""
 
 #. Default: "Like us on Facebook"
-#: ./browser/footer.pt:42
+#: ./browser/footer.pt:45
 msgid "younglives_theme_label_like_facebook"
 msgstr ""
 
 #. Default: "News & Events"
-#: ./browser/footer.pt:28
+#: ./browser/footer.pt:29
 msgid "younglives_theme_label_news_and_events"
 msgstr ""
 
 #. Default: "Page last updated:"
-#: ./browser/footer.pt:83
+#: ./browser/footer.pt:91
 msgid "younglives_theme_label_page_last_updated"
 msgstr ""
 
 #. Default: "Sitemap"
-#: ./browser/footer.pt:68
+#: ./browser/footer.pt:73
 msgid "younglives_theme_label_sitemap"
 msgstr ""
 
 #. Default: "Terms & Conditions"
-#: ./browser/footer.pt:72
+#: ./browser/footer.pt:78
 msgid "younglives_theme_label_terms_conditions"
 msgstr ""
 

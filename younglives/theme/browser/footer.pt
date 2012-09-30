@@ -22,35 +22,40 @@
         <h6 i18n:translate="younglives_theme_label_find_out_more">Find out more</h6>
         <ul>
             <li>
-                <a title="News &amp; Events"
+                <a title="News &amp; Events" alt="News &amp; Events"
+                    i18n:attributes="title; alt"
                     tal:attributes="href string:${context/portal_url}/what-we-do/news-and-events">
                     <img src="++theme++younglives.theme/images/quotes.png" />
                     <span i18n:translate="younglives_theme_label_news_and_events">News &amp; Events</span>
                 </a>
             </li>
             <li>
-                <a title="E-newsletter / e-alerts"
+                <a title="E-newsletter / e-alerts" alt="E-newsletter / e-alerts"
+                    i18n:attributes="title; alt"
                     tal:attributes="href string:${context/portal_url}/who-we-are/find-out-more">
                     <img src="++theme++younglives.theme/images/alerts.png" />
                     <span i18n:translate="younglives_theme_label_enewsletter">E-newsletter / e-alerts</span>
                 </a>
             </li>
             <li>
-                <a title="Like us on Facebook"
+                <a title="Like us on Facebook" alt="Like us on Facebook"
+                    i18n:attributes="title; alt"
                     href="http://www.facebook.com/pages/Young-Lives-An-International-Study-of-Childhood-Poverty/232144236892777">
                     <img src="++theme++younglives.theme/images/round_facebook_icon.png" />
                     <span i18n:translate="younglives_theme_label_like_facebook">Like us on Facebook</span>
                 </a>
             </li>
             <li>
-                <a title="iTunes U podcasts"
+                <a title="iTunes U podcasts" alt="iTunes U podcasts"
+                    i18n:attributes="title; alt"
                     tal:attributes="href string:${context/portal_url}/what-we-do/news-and-events/podcasts">
                     <img src="++theme++younglives.theme/images/podcasts.png" />
                     <span i18n:translate="younglives_theme_label_itunes">iTunes U podcasts</span>
                 </a>
             </li>
             <li>
-                <a title="Contact us" accesskey="6"
+                <a title="Contact us" alt="Contact us" accesskey="6"
+                    i18n:attributes="title; alt"
                     tal:attributes="href string:${context/portal_url}/who-we-are/contact-details">
                     <img src="++theme++younglives.theme/images/contact.png" />
                     <span i18n:translate="younglives_theme_label_contact_us">Contact us</span>
@@ -65,16 +70,19 @@
     </div>
     <div class="links">
         <ul>
-            <li><a href="#" title="Sitemap" accesskey="3"
+            <li><a title="Sitemap" alt="Sitemap" accesskey="3"
                 tal:attributes="href string:${context/portal_url}/sitemap"
+                i18n:attributes="title; alt"
                 i18n:translate="younglives_theme_label_sitemap"
                 >Sitemap</a></li>
-            <li><a href="#" title="Terms and Conditions"
+            <li><a title="Terms and Conditions" alt="Terms and Conditions"
                 tal:attributes="href string:${context/portal_url}/terms-and-conditions"
+                i18n:attributes="title; alt"
                 i18n:translate="younglives_theme_label_terms_conditions"
                 >Terms &amp; Conditions</a></li>
-            <li class="last"><a href="#" title="Accessibility statement" accesskey="0"
+            <li class="last"><a title="Accessibility statement" alt="Accessibility statement" accesskey="0"
                 tal:attributes="href string:${context/portal_url}/accessibility-info"
+                i18n:attributes="title; alt"
                 i18n:translate="younglives_theme_label_accessibility"
                 >Accessibility statement</a></li>
             <tal:modified condition="not:isHomepage"
