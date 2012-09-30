@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2012-09-29 19:40+0000\n"
+"POT-Creation-Date: 2012-09-30 12:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,20 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: younglives.theme\n"
 
-#. Default: "Like us on Facebook"
 #: ./profiles/default/actions.xml
-msgid "younglives_theme_description_facebook"
+msgid "Email"
+msgstr ""
+
+#: ./profiles/default/actions.xml
+msgid "Facebook"
+msgstr ""
+
+#: ./profiles/default/actions.xml
+msgid "Like us on Facebook"
+msgstr ""
+
+#: ./profiles/default/actions.xml
+msgid "Print"
 msgstr ""
 
 #. Default: "Accessibility statement"
@@ -32,19 +43,9 @@ msgstr ""
 msgid "younglives_theme_label_contact_us"
 msgstr ""
 
-#. Default: "Email"
-#: ./profiles/default/actions.xml
-msgid "younglives_theme_label_email"
-msgstr ""
-
 #. Default: "E-newsletter / e-alerts"
 #: ./browser/footer.pt:35
 msgid "younglives_theme_label_enewsletter"
-msgstr ""
-
-#. Default: "Facebook"
-#: ./profiles/default/actions.xml
-msgid "younglives_theme_label_facebook"
 msgstr ""
 
 #. Default: "Find out more"
@@ -70,11 +71,6 @@ msgstr ""
 #. Default: "Page last updated:"
 #: ./browser/footer.pt:83
 msgid "younglives_theme_label_page_last_updated"
-msgstr ""
-
-#. Default: "Print"
-#: ./profiles/default/actions.xml
-msgid "younglives_theme_label_print"
 msgstr ""
 
 #. Default: "Sitemap"

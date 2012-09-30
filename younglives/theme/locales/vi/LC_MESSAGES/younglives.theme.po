@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: 2012-09-29 19:40+0000\n"
+"POT-Creation-Date: 2012-09-30 12:27+0000\n"
 "PO-Revision-Date: 2012-09-23 02:04+0100\n"
 "Last-Translator: Michael Davis <m.r.davis@lib-usr.co.uk>\n"
 "Language-Team: Vietnamese\n"
@@ -15,10 +15,21 @@ msgstr ""
 "Domain: DOMAIN\n"
 "Generated-By: zope/app/locales/extract.py\n"
 
-#. Default: "Like us on Facebook"
 #: ./profiles/default/actions.xml
-msgid "younglives_theme_description_facebook"
+msgid "Email"
+msgstr ""
+
+#: ./profiles/default/actions.xml
+msgid "Facebook"
+msgstr ""
+
+#: ./profiles/default/actions.xml
+msgid "Like us on Facebook"
 msgstr "Theo dõi chúng tôi trên Facebook"
+
+#: ./profiles/default/actions.xml
+msgid "Print"
+msgstr "In"
 
 #. Default: "Accessibility statement"
 #: ./browser/footer.pt:76
@@ -30,20 +41,10 @@ msgstr "Hỗ trợ sử dụng"
 msgid "younglives_theme_label_contact_us"
 msgstr "Liên hệ"
 
-#. Default: "Email"
-#: ./profiles/default/actions.xml
-msgid "younglives_theme_label_email"
-msgstr ""
-
 #. Default: "E-newsletter / e-alerts"
 #: ./browser/footer.pt:35
 msgid "younglives_theme_label_enewsletter"
 msgstr "Đăng ký nhận tin cập nhật qua email"
-
-#. Default: "Facebook"
-#: ./profiles/default/actions.xml
-msgid "younglives_theme_label_facebook"
-msgstr "Facebook"
 
 #. Default: "Find out more"
 #: ./browser/footer.pt:22
@@ -69,11 +70,6 @@ msgstr "Tin tức & Sự kiện"
 #: ./browser/footer.pt:83
 msgid "younglives_theme_label_page_last_updated"
 msgstr "Cập nhật lúc:"
-
-#. Default: "Print"
-#: ./profiles/default/actions.xml
-msgid "younglives_theme_label_print"
-msgstr "In"
 
 #. Default: "Sitemap"
 #: ./browser/footer.pt:68
