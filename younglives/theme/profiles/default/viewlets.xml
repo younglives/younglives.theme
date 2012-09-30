@@ -3,4 +3,7 @@
   <hidden manager="plone.belowcontentbody" skinname="Young Lives Theme">
     <viewlet name="plone.belowcontentbody.relateditems" />
   </hidden>
+  <hidden manager="plone.portalfooter" skinname="Young Lives Theme">
+    <viewlet name="plone.site_actions" />
+  </hidden>
 </object>
