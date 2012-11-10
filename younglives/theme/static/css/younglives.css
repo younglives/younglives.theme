@@ -509,3 +509,8 @@ dl.portletStaticText p img
 {
     visibility: hidden;
 }
+
+.eventDetails h3
+{
+    display: none;
+}
