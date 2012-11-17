@@ -505,6 +505,11 @@ dl.portlet ul.navTreeLevel1 .navTreeItem
     padding-left: 0.5em;
 }
 
+#portal-column-one dl.portlet ul.navTreeLevel1 .navTreeItem a
+{
+    background: url("++theme++younglives.theme/images/bg-nav-dash.png") no-repeat scroll left center transparent
+}
+
 #portal-column-two .portletWrapper
 {
     padding-bottom: 1em;
