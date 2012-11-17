@@ -500,6 +500,11 @@ dl.portletStaticText p img
     margin-bottom: 0.5em;
 }
 
+dl.portlet ul.navTreeLevel1 .navTreeItem
+{
+    padding-left: 0.5em;
+}
+
 #portal-column-two .portletWrapper
 {
     padding-bottom: 1em;
