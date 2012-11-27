@@ -205,6 +205,11 @@ dl.portlet ul li
     padding: 4px 0;
 }
 
+#footer-wrapper .news li a span
+{
+    margin-left: 5px;
+}
+
 #footer-wrapper .logo {
     float: right;
 }
