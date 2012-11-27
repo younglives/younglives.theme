@@ -238,13 +238,19 @@ dl.portlet ul li
     background: url("++theme++younglives.theme/images/mail_icon.png") no-repeat scroll left top transparent;
 }
 
+#document-action-twitter
+{
+    background: url("++theme++younglives.theme/images/twitter_icon.png") no-repeat scroll left top transparent;
+    padding-left: 20px;
+}
+
 #document-action-facebook
 {
     background: url("++theme++younglives.theme/images/facebook_icon.png") no-repeat scroll left top transparent;
+    padding-left: 20px;
 }
 
 #document-action-email,
-#document-action-facebook,
 #document-action-print
 {
     padding-left: 20px;
