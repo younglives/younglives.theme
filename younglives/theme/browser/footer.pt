@@ -38,6 +38,14 @@
                 </a>
             </li>
             <li>
+                <a title="Follow us on Twitter" alt="Follow us on Twitter"
+                    i18n:attributes="title; alt"
+                    href="http://twitter.com/yloxford">
+                    <img src="++theme++younglives.theme/images/round_twitter_icon.png" />
+                    <span i18n:translate="younglives_theme_label_follow_twitter">Follow us on Twitter</span>
+                </a>
+            </li>
+            <li>
                 <a title="Like us on Facebook" alt="Like us on Facebook"
                     i18n:attributes="title; alt"
                     href="http://www.facebook.com/pages/Young-Lives-An-International-Study-of-Childhood-Poverty/232144236892777">
