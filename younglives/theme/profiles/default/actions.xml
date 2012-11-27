@@ -57,7 +57,7 @@
    <property name="description" i18n:translate="">Follow us on Twitter</property>
    <property name="url_expr">string:http://twitter.com/yloxford</property>
    <property name="link_target"></property>
-   <property name="icon_expr">string:$portal_url/twitter_icon.png</property>
+   <property name="icon_expr">string:$portal_url/++theme++younglives.theme/images/twitter_icon.png</property>
    <property name="available_expr"></property>
    <property name="permissions">
     <element value="View"/>
@@ -69,7 +69,7 @@
    <property name="description" i18n:translate="">Like us on Facebook</property>
    <property name="url_expr">string:http://www.facebook.com/pages/Young-Lives-An-International-Study-of-Childhood-Poverty/232144236892777</property>
    <property name="link_target"></property>
-   <property name="icon_expr">string:$portal_url/facebook_icon.png</property>
+   <property name="icon_expr">string:$portal_url/++theme++younglives.theme/images/facebook_icon.png</property>
    <property name="available_expr"></property>
    <property name="permissions">
     <element value="View"/>
@@ -81,7 +81,7 @@
    <property name="description" i18n:translate=""></property>
    <property name="url_expr">string:#</property>
    <property name="link_target"></property>
-   <property name="icon_expr">string:$portal_url/print_icon.png</property>
+   <property name="icon_expr">string:$portal_url/email_icon.png</property>
    <property name="available_expr"></property>
    <property name="permissions">
     <element value="View"/>
