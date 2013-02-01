@@ -24,7 +24,7 @@
             <li>
                 <a title="News &amp; Events" alt="News &amp; Events"
                     i18n:attributes="title; alt"
-                    tal:attributes="href string:${context/portal_url}/what-we-do/news-and-events">
+                    tal:attributes="href string:${context/portal_url}/what-we-do/news">
                     <img src="++theme++younglives.theme/images/quotes.png" />
                     <span i18n:translate="younglives_theme_label_news_and_events">News &amp; Events</span>
                 </a>
