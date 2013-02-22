@@ -1,8 +1,13 @@
 Changelog
 =========
 
-1.0.3 Unreleased
+1.0.3 2013/02/22
 ----------------
+
+ - Update links
+ - Add Ethiopia and Vietnam into the theme
+ - Add twitter link and icon]
+ - Add msgidds for translations
 
 1.0.2 2012/09/18
 ----------------
