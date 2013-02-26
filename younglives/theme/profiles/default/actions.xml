@@ -52,18 +52,6 @@
    </property>
    <property name="visible">True</property>
   </object>
-  <object name="twitter" meta_type="CMF Action" i18n:domain="younglives.theme">
-   <property name="title" i18n:translate="">Twitter</property>
-   <property name="description" i18n:translate="">Follow us on Twitter</property>
-   <property name="url_expr">string:http://twitter.com/yloxford</property>
-   <property name="link_target"></property>
-   <property name="icon_expr">string:$portal_url/++theme++younglives.theme/images/twitter_icon.png</property>
-   <property name="available_expr"></property>
-   <property name="permissions">
-    <element value="View"/>
-   </property>
-   <property name="visible">True</property>
-  </object>
   <object name="facebook" meta_type="CMF Action" i18n:domain="younglives.theme">
    <property name="title" i18n:translate="">Facebook</property>
    <property name="description" i18n:translate="">Like us on Facebook</property>
@@ -82,6 +70,18 @@
    <property name="url_expr">string:#</property>
    <property name="link_target"></property>
    <property name="icon_expr">string:$portal_url/email_icon.png</property>
+   <property name="available_expr"></property>
+   <property name="permissions">
+    <element value="View"/>
+   </property>
+   <property name="visible">True</property>
+  </object>
+  <object name="twitter" meta_type="CMF Action" i18n:domain="younglives.theme">
+   <property name="title" i18n:translate="">Twitter</property>
+   <property name="description" i18n:translate="">Follow us on Twitter</property>
+   <property name="url_expr">string:http://twitter.com/yloxford</property>
+   <property name="link_target"></property>
+   <property name="icon_expr">string:$portal_url/++theme++younglives.theme/images/twitter_icon.png</property>
    <property name="available_expr"></property>
    <property name="permissions">
     <element value="View"/>
