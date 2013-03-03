@@ -12,9 +12,6 @@ from Products.CMFCore.utils import getToolByName
 
 from younglives.homepage.interfaces import IHomePage
 
-# local
-from younglives.content.interfaces import IHomepageBoxAware
-
 class FooterViewlet(ViewletBase):
     """ Footer viewlet """
 
@@ -54,22 +51,3 @@ class FooterViewlet(ViewletBase):
             return homepage.getHomeFooterImage()
         except AttributeError:
             return None
-
-    def getHomeBoxes(self):
-        items = []
-        homepage = self.getHomePage()
-        
-        home_boxes_ref = homepage.getHomeBoxes()
-        for box_ref in home_boxes_ref:
-            if IHomepageBoxAware.providedBy(box_ref):
-                item = dict(title = box_ref.Title(),
-                            url = box_ref.absolute_url(),
-                            description = box_ref.Description(),
-                            links = [])
-                brains = box_ref.queryCatalog()
-                for brain in brains:
-                    item['links'].append(dict(title = brain.Title,
-                                              url = brain.getURL(),))                            
-                items.append(item)
-        
-        return items
