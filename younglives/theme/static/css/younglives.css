@@ -365,6 +365,12 @@ div.news-list ul
     color: #404040;
 }
 
+#content table.mceToolbar td
+{
+    border: none;
+    padding: 0px;
+}
+
 #content table th,
 #content table td
 {
