@@ -25,6 +25,10 @@ if membership_tool.isAnonymousUser():
 came_from = REQUEST.get('came_from', None)
 next = REQUEST.get('next', None)
 
+
+portal_url = context.portal_url()
+came_from = portal_url + '/intranet'
+
 # if we weren't called from something that set 'came_from' or if HTTP_REFERER
 # is the 'logged_out' page, return the default 'login_success' form
 if came_from is not None:
