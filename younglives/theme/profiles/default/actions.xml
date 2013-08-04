@@ -88,5 +88,17 @@
    </property>
    <property name="visible">True</property>
   </object>
+  <object name="youtube" meta_type="CMF Action" i18n:domain="younglives.theme">
+   <property name="title" i18n:translate="">YouTube</property>
+   <property name="description" i18n:translate="">Watch us on YouTube</property>
+   <property name="url_expr">string:http://www.youtube.com/channel/UCsZkpcrrolOvnzNG2X3lIjg</property>
+   <property name="link_target"></property>
+   <property name="icon_expr"></property>
+   <property name="available_expr"></property>
+   <property name="permissions">
+    <element value="View"/>
+   </property>
+   <property name="visible">True</property>
+  </object>
  </object>
 </object>

@@ -255,6 +255,12 @@ dl.portlet ul li
     padding-left: 20px;
 }
 
+#document-action-youtube
+{
+    background: url("++theme++younglives.theme/images/youtube_icon.png") no-repeat scroll left top transparent;
+    padding-left: 20px;
+}
+
 #document-action-email,
 #document-action-print
 {
