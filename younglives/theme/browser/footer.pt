@@ -24,7 +24,7 @@
             <li>
                 <a title="News &amp; Events" alt="News &amp; Events"
                     i18n:attributes="title; alt"
-                    tal:attributes="href string:${context/portal_url}/what-we-do/news">
+                    tal:attributes="href string:${context/portal_url}/news/news">
                     <img src="++theme++younglives.theme/images/quotes.png" />
                     <span i18n:translate="younglives_theme_label_news_and_events">News &amp; Events</span>
                 </a>
@@ -54,11 +54,11 @@
                 </a>
             </li>
             <li>
-                <a title="iTunes U podcasts" alt="iTunes U podcasts"
+                <a title="Multimedia" alt="Multimedia"
                     i18n:attributes="title; alt"
-                    tal:attributes="href string:${context/portal_url}/what-we-do/podcasts">
+                    tal:attributes="href string:${context/portal_url}/news/multimedia">
                     <img src="++theme++younglives.theme/images/podcasts.png" />
-                    <span i18n:translate="younglives_theme_label_itunes">iTunes U podcasts</span>
+                    <span i18n:translate="younglives_theme_label_itunes">Multimedia</span>
                 </a>
             </li>
             <li>
