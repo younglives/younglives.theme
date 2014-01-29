@@ -21,7 +21,7 @@
 var ploneFormTabbing = {
         // standard jQueryTools configuration options for all form tabs
         jqtConfig:{current:'selected'},
-        max_tabs: 6
+        max_tabs: 10
     };
 
 
