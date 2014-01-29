@@ -56,7 +56,7 @@
             <li>
                 <a title="Multimedia" alt="Multimedia"
                     i18n:attributes="title; alt"
-                    tal:attributes="href string:${context/portal_url}/news/multimedia">
+                    tal:attributes="href string:${context/portal_url}/publications/multimedia">
                     <img src="++theme++younglives.theme/images/podcasts.png" />
                     <span i18n:translate="younglives_theme_label_itunes">Multimedia</span>
                 </a>
