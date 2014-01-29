@@ -1,8 +1,12 @@
 Changelog
 =========
 
-1.0.4 Unreleased
+1.0.4 2014/01/29
 ----------------
+
+ - Add youtube icon
+ - Fix some links
+ - Update form tabbing customisation
 
 1.0.3 2013/02/22
 ----------------
