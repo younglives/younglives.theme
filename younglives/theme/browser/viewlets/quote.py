@@ -1,9 +1,8 @@
-from zope.component import getMultiAdapter
-
 from Products.CMFCore.utils import getToolByName
 from Products.Five.browser.pagetemplatefile import ViewPageTemplateFile
 
 from plone.app.layout.viewlets import ViewletBase
+
 
 class QuoteView(ViewletBase):
 

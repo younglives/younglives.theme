@@ -1,21 +1,25 @@
 from setuptools import setup, find_packages
 import os
 
-version = open(os.path.join("younglives", "theme", "version.txt")).read().strip()
+version_path = os.path.join("younglives", "theme", "version.txt")
+
+version = open(version_path).read().strip()
+
+long_description = open(os.path.join("docs", "README.txt")).read()
+long_description += "\n" + open(os.path.join("docs", "INSTALL.txt")).read()
+long_description += "\n" + open(os.path.join("docs", "HISTORY.txt")).read()
 
 setup(name='younglives.theme',
       version=version,
       description="Diazo theme for Young Lives",
-      long_description=open(os.path.join("docs", "README.txt")).read() + "\n" +
-                       open(os.path.join("docs", "INSTALL.txt")).read() + "\n" +
-                       open(os.path.join("docs", "HISTORY.txt")).read(),
+      long_description=long_description,
       classifiers=[
-        "Programming Language :: Python",
-        "Framework :: Plone",
-        "Framework :: Plone :: 4.0",
-        "Framework :: Plone :: 4.1",
-        "Framework :: Plone :: 4.2",
-        ],
+          "Programming Language :: Python",
+          "Framework :: Plone",
+          "Framework :: Plone :: 4.0",
+          "Framework :: Plone :: 4.1",
+          "Framework :: Plone :: 4.2",
+      ],
       keywords='',
       author='Michael Davis',
       author_email='M.R.Davis@cranfield.ac.uk',
@@ -30,10 +34,8 @@ setup(name='younglives.theme',
           'plone.app.theming',
           # -*- Extra requirements: -*-
       ],
-      extras_require = {
-            'test': [
-                    'plone.app.testing',
-                ]
+      extras_require={
+          'test': ['plone.app.testing', ]
       },
       entry_points="""
       # -*- Entry points: -*-
@@ -41,4 +43,4 @@ setup(name='younglives.theme',
       [z3c.autoinclude.plugin]
       target = plone
       """,
-)
+      )
