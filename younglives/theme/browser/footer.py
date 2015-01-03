@@ -2,7 +2,7 @@ from plone.app.layout.viewlets.common import ViewletBase
 from plone.memoize.view import memoize
 from Products.CMFCore.utils import getToolByName
 
-from younglives.homepage.interfaces import IHomePage
+from younglives.homepage.interfaces.homepage import IHomePage
 
 
 class FooterViewlet(ViewletBase):
