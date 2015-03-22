@@ -504,6 +504,9 @@ div.news-list ul
 
 #content .publication-info ul {
     list-style-type:none;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .publication-info li a {
