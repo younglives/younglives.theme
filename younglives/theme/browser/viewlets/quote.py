@@ -13,6 +13,6 @@ class QuoteView(ViewletBase):
         results = portal_catalog(meta_type='HomePage')
         if results:
             object = results[0].getObject()
-            self.quote = object.getField('homeQuote').get(object)
+            #self.quote = object.getField('homeQuote').get(object)
         else:
             self.quote = ''
